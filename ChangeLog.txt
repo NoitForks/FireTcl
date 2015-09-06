@@ -1,0 +1,16 @@
+FireTcl 2.0.4
+    - I improved the organization of the code. I am arraging the things to provide in the future a bidual bridge: one using js-ctypes
+    and another using websockets comunicating to a local server.
+
+FireTcl 2.0.3
+    - The module returned by app.js is automatically added to FireTcl.App    
+
+FireTcl 2.0.2
+
+    - All the web application is hosted in a real browser inside a XUL runner application.
+    
+    - It's possible to inject firebug-lite. In the other versions, this was impossible because the hosted environmet had some
+    differences with a browser environment, and some strange error ocurred for example manipulating the history with the new
+    HTML5 API.
+    There is a new configuration variable on the file "firetcl.tcl" to inject firebug-lite for debugging purposes.
+    

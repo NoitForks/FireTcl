@@ -1,0 +1,21 @@
+{
+    "name": "firetcl-demo",
+    "description": "demo app of firetcl console",
+    "version": "0.1.0",
+    "keywords": [ "demo", "firetcl-console" ],
+    "window": {
+        "title": "console demo",
+        "width": 800,
+        "height": 500,
+        "size_mode": "maximized",
+        "full_zoom": 1.2
+    },
+    "css": [        
+        "css/firetcl_console.css"
+    ],
+    "tcl_dll": {
+        "Linux": "binaries/linux/tcl_interpreter/libtcl8.6.so",
+        "Windows NT": "binaries/win32/tcl_interpreter/bin/tcl86.dll"
+    }
+  
+}
